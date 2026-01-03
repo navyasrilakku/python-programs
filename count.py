@@ -1,0 +1,14 @@
+s=input()
+ac=0
+dc=0
+spc=0
+for i in s:
+   if(i.isalpha()):
+	   ac+=1
+   elif(i.isdigit()):
+	   dc+=1
+   else:
+       spc+=1
+print(ac)
+print(dc)
+print(spc)

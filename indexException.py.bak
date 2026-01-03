@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+try:
+	print("connecting database")
+	c=a//b
+	print(c)
+	print("disconnecting database")
+except Exception as e:
+	print(e)
+	
